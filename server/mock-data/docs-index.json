@@ -1,0 +1,8 @@
+[
+  { "id": "security-basics", "title": "Security basics for project work", "summary": "Passwords, MFA, device rules, phishing and how to report incidents.", "projectIds": [] },
+  { "id": "data-protection", "title": "Handling client and personal data", "summary": "What counts as personal data, where it may be stored and what never leaves client systems.", "projectIds": [] },
+  { "id": "ways-of-working", "title": "Ways of working on delivery teams", "summary": "Sprints, stand-ups, definition of done, code review and how to ask for help.", "projectIds": [] },
+  { "id": "atlas-architecture", "title": "Atlas architecture overview", "summary": "Online banking web app: React front end, Node BFF, core banking APIs, environments and release flow.", "projectIds": ["atlas"] },
+  { "id": "orion-mobile-release", "title": "Orion mobile release process", "summary": "React Native build pipeline, TestFlight and Play internal testing, store submission checklist.", "projectIds": ["orion"] },
+  { "id": "nova-dev-guide", "title": "Nova developer guide", "summary": "Local setup, repository layout, AWS staging deploys and coding conventions for Nova.", "projectIds": ["nova"] }
+]

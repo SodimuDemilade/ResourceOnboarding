@@ -1,0 +1,27 @@
+[
+  {
+    "id": "frontend-dev",
+    "title": "Frontend Developer",
+    "description": "Builds web user interfaces, typically with React and TypeScript."
+  },
+  {
+    "id": "mobile-dev",
+    "title": "Mobile Developer",
+    "description": "Builds mobile apps for iOS and Android."
+  },
+  {
+    "id": "backend-dev",
+    "title": "Backend Developer",
+    "description": "Builds APIs, services and data access layers."
+  },
+  {
+    "id": "qa",
+    "title": "QA Engineer",
+    "description": "Plans and runs manual and automated tests."
+  },
+  {
+    "id": "business-analyst",
+    "title": "Business Analyst",
+    "description": "Gathers requirements, writes user stories and works with stakeholders."
+  }
+]

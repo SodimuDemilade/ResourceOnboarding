@@ -1,0 +1,41 @@
+[
+  {
+    "id": "atlas",
+    "name": "Project Atlas",
+    "client": "Northbridge Bank (fictional)",
+    "requiresNda": true,
+    "requiresBackgroundCheck": true,
+    "team": [
+      { "name": "Maya Okafor", "role": "Engagement manager" },
+      { "name": "Tom Reyes", "role": "Tech lead" },
+      { "name": "Anika Patel", "role": "Product owner (client)" },
+      { "name": "Leo Martins", "role": "QA lead" },
+      { "name": "Grace Kim", "role": "Scrum master" }
+    ]
+  },
+  {
+    "id": "orion",
+    "name": "Project Orion",
+    "client": "Harbor Mutual Insurance (fictional)",
+    "requiresNda": true,
+    "requiresBackgroundCheck": false,
+    "team": [
+      { "name": "Daniel Osei", "role": "Delivery lead" },
+      { "name": "Sofia Lindqvist", "role": "Mobile tech lead" },
+      { "name": "Ravi Menon", "role": "Product owner (client)" },
+      { "name": "Chloe Dubois", "role": "UX designer" }
+    ]
+  },
+  {
+    "id": "nova",
+    "name": "Project Nova",
+    "client": "Internal",
+    "requiresNda": false,
+    "requiresBackgroundCheck": false,
+    "team": [
+      { "name": "Priscilla Adeyemi", "role": "Project manager" },
+      { "name": "Ben Hartley", "role": "Tech lead" },
+      { "name": "Yusuf Rahman", "role": "Full stack developer" }
+    ]
+  }
+]

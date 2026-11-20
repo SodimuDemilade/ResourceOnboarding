@@ -1,0 +1,10 @@
+{
+  "name": "onboarding-agents",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "shared",
+    "server",
+    "client"
+  ]
+}

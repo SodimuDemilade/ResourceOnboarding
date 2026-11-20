@@ -1,0 +1,18 @@
+[
+  { "id": "corporate-email", "name": "Corporate email and calendar", "system": "Microsoft 365", "projectIds": [], "requiresApproval": false, "requiresNda": false, "employeeOnly": false, "clientSystem": false },
+  { "id": "team-chat", "name": "Team chat", "system": "Microsoft Teams", "projectIds": [], "requiresApproval": false, "requiresNda": false, "employeeOnly": false, "clientSystem": false },
+  { "id": "jira", "name": "Jira project board", "system": "Jira", "projectIds": [], "requiresApproval": false, "requiresNda": false, "employeeOnly": false, "clientSystem": false },
+  { "id": "confluence", "name": "Confluence project space", "system": "Confluence", "projectIds": [], "requiresApproval": false, "requiresNda": false, "employeeOnly": false, "clientSystem": false },
+  { "id": "github-org", "name": "GitHub organisation (internal repos)", "system": "GitHub", "projectIds": ["nova", "orion"], "requiresApproval": true, "requiresNda": false, "employeeOnly": false, "clientSystem": false },
+  { "id": "nova-staging", "name": "Nova staging environment", "system": "AWS", "projectIds": ["nova"], "requiresApproval": false, "requiresNda": false, "employeeOnly": false, "clientSystem": false },
+  { "id": "aws-dev-sandbox", "name": "AWS developer sandbox account", "system": "AWS", "projectIds": ["nova"], "requiresApproval": true, "requiresNda": false, "employeeOnly": true, "clientSystem": false },
+  { "id": "atlas-client-vpn", "name": "Northbridge client VPN", "system": "Client VPN", "projectIds": ["atlas"], "requiresApproval": true, "requiresNda": true, "employeeOnly": false, "clientSystem": true },
+  { "id": "atlas-client-email", "name": "Northbridge client email account", "system": "Client Microsoft 365", "projectIds": ["atlas"], "requiresApproval": true, "requiresNda": true, "employeeOnly": false, "clientSystem": true },
+  { "id": "atlas-gitlab", "name": "Northbridge GitLab (Atlas repositories)", "system": "GitLab", "projectIds": ["atlas"], "requiresApproval": true, "requiresNda": true, "employeeOnly": false, "clientSystem": true },
+  { "id": "atlas-uat", "name": "Atlas UAT environment", "system": "Client Azure", "projectIds": ["atlas"], "requiresApproval": true, "requiresNda": true, "employeeOnly": false, "clientSystem": true },
+  { "id": "atlas-prod-db-read", "name": "Atlas production database (read only)", "system": "PostgreSQL", "projectIds": ["atlas"], "requiresApproval": true, "requiresNda": true, "employeeOnly": true, "clientSystem": true },
+  { "id": "orion-client-sso", "name": "Harbor Mutual single sign-on", "system": "Client Okta", "projectIds": ["orion"], "requiresApproval": true, "requiresNda": true, "employeeOnly": false, "clientSystem": true },
+  { "id": "orion-app-store", "name": "App Store Connect and Google Play Console", "system": "App stores", "projectIds": ["orion"], "requiresApproval": true, "requiresNda": true, "employeeOnly": true, "clientSystem": true },
+  { "id": "orion-firebase", "name": "Orion Firebase project", "system": "Firebase", "projectIds": ["orion"], "requiresApproval": true, "requiresNda": true, "employeeOnly": false, "clientSystem": true },
+  { "id": "orion-device-lab", "name": "Mobile device testing lab", "system": "Device cloud", "projectIds": ["orion"], "requiresApproval": false, "requiresNda": false, "employeeOnly": false, "clientSystem": false }
+]
